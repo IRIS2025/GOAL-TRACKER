@@ -14,4 +14,4 @@ Efficient goal tracking
 ## solution 
 developed a web page that allows to set,track and achieve their goals.
 ## hosted project link
-https://6795b73981d0c8badc204c24--stupendous-smakager-a5260b.netlify.app/
+https://drive.google.com/drive/u/2/home
