@@ -14,4 +14,4 @@ Efficient goal tracking
 ## solution 
 developed a web page that allows to set,track and achieve their goals.
 ## hosted project link
-https://drive.google.com/drive/u/2/home
+https://drive.google.com/file/d/1tXNoAO94jjkYXsRE70CJoTlCFUZnyuC0/view?t=15
