@@ -8,7 +8,7 @@ Afreen Akbar Ali
 Ann Mariya Eldhose
 Anjana Unni
 ## project description 
-A goal tracker is a practical tool designed to help you set, manage and achieve your goals more effectively.It allows you to breakdown big ambitions into smaller, actionable steps, making progress feel manageable and measurable.Goal tracker often include features like timelines,deadlines,checklist,progress bar and areas for reflection or notes .Some also incorporate motivational elements like rewards for milestones or inspirational quotes.Whether you use a physical planner,a digital app or a customs spreadsheet,the goal tracker keeps you organized,focused and accountable,making it easier to stay on track and celebrate every win-big or small.
+A goal tracker is a practical tool designed to help you set, manage and achieve your goals more effectively.It allows you to breakdown big ambitions into smaller, actionable steps, making progress feel manageable and measurable.
 ## project statement 
 Efficient goal tracking
 ## solution 
