@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background: #ff758c;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        button {
+            background: #ff758c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #ff476f;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎯 Goal Tracker</h1>
+    </header>
+    
+    <section class="dashboard">
+        <h2>📊 Dashboard</h2>
+        <div class="goal-summary">
+            <p><strong>Active Goals:</strong> 5</p>
+            <p><strong>Completed Goals:</strong> 3</p>
+            <progress value="60" max="100"></progress>
+        </div>
+    </section>
+
+    <section class="add-goal">
+        <h2>➕ Add New Goal</h2>
+        <form>
+            <input type="text" placeholder="Goal Title" required>
+            <textarea placeholder="Goal Description" required></textarea>
+            <input type="date" required>
+            <select>
+                <option value="fitness">Fitness</option>
+                <option value="career">Career</option>
+                <option value="personal">Personal Growth</option>
+            </select>
+            <button type="submit">Add Goal</button>
+        </form>
+    </section>
+
+    <section class="reminders">
+        <h2>⏰ Reminders & Notifications</h2>
+        <label>
+            <input type="checkbox"> Enable Daily Reminders
+        </label>
+        <label>
+            <input type="checkbox"> Enable Weekly Summaries
+        </label>
+    </section>
+
+    <section class="motivation">
+        <h2>💪 Stay Motivated</h2>
+        <blockquote>"Success is the sum of small efforts, repeated day in and day out."</blockquote>
+    </section>
+
+    <section class="quick-actions">
+        <h2>⚡ Quick Actions</h2>
+        <button>Mark Goal as Completed</button>
+        <button>Edit Goal</button>
+        <button>Delete Goal</button>
+    </section>
+</body>
+</html>

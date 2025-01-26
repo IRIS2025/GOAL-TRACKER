@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
+        header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; gap: 20px; padding: 10px; background: #333; }
+        nav a { color: white; text-decoration: none; }
+        .hero { text-align: center; padding: 50px; background: #f4f4f4; }
+        .hero h1 { font-size: 2.5em; }
+        .hero p { font-size: 1.2em; color: #555; }
+        .cta-button { background: #4CAF50; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; }
+        .features, .goal-management, .progress-tracking, .reminders { 
+            display: flex; 
+            justify-content: space-around; 
+            padding: 50px; 
+            background: #eaeaea; 
+        }
+        .feature { 
+            text-align: center; 
+            max-width: 300px; 
+            margin: 0 20px; 
+        }
+        .feature h3 { color: #333; }
+        .footer { background: #333; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Goal Tracker</h1>
+        <p>Achieve Your Goals, One Step at a Time</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#goal-management">Goal Management</a>
+        <a href="#progress">Progress Tracking</a>
+        <a href="#reminders">Reminders</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Stay Motivated and Achieve More</h1>
+        <p>Track your progress and accomplish your goals efficiently.</p>
+        <a href="signup.html" class="cta-button">Get Started</a>
+    </section>
+
+    <section class="goal-management" id="goal-management">
+        <div class="feature">
+            <h3>Set Your Goals</h3>
+            <p>Simply add your goal and track your progress!</p>
+        </div>
+        <div class="feature">
+            <h3>Track Your Progress</h3>
+            <p>Monitor your achievements with visual progress bars.</p>
+        </div>
+        <div class="feature">
+            <h3>Set Reminders</h3>
+            <p>Get reminders to keep you on track for your goals.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Goal Tracker. All rights reserved.</p>
+        <p>Follow us on <a href="#" style="color: #4CAF50;">Social Media</a></p>
+    </footer>
+</body>
+</html>
